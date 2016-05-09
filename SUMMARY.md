@@ -12,4 +12,5 @@
 * [Relax Programmatic DSL](relax_programmatic_dsl/index.md)
    * [Configuration](relax_programmatic_dsl/configuration.md)
    * Global Headers
+   * Global Params
 
