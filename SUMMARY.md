@@ -2,6 +2,7 @@
 
 * [Introduction](README.md)
    * [Changelog](introduction/changelog.md)
+* Installation
 * [Capabilities](capabilities.md)
 * [Getting Started](getting_started.md)
 * [Relax Configuration DSL](relax_dsl/index.md)
@@ -19,5 +20,4 @@
        * [Placeholders](relax_programmatic_dsl/resources/placeholders.md)
        * [Headers](relax_programmatic_dsl/resources/headers.md)
    * [Schemas & Samples](relax_programmatic_dsl/schemas_&_samples.md)
-* Installation
 
