@@ -1,4 +1,4 @@
-# WELCOME TO COLDBOX RELAX
+# Welcome to ColdBox Relax v2.3.0
 
 > RELAX = RESTFul Tools For Lazy Experts!
 
