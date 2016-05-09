@@ -13,5 +13,5 @@
    * [Configuration](relax_programmatic_dsl/configuration.md)
    * [Global Headers](relax_programmatic_dsl/global_headers.md)
    * [Global Params](relax_programmatic_dsl/global_params.md)
-   * Resources
+   * [Resources](relax_programmatic_dsl/resources.md)
 
