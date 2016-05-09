@@ -2,5 +2,5 @@
 
 * [Introduction](README.md)
 * [Capabilities](capabilities.md)
-* Getting Started
+* [Getting Started](getting_started.md)
 
