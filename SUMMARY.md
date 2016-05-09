@@ -1,5 +1,5 @@
 # Summary
 
 * [Introduction](README.md)
-* Capabilities
+* [Capabilities](capabilities.md)
 
