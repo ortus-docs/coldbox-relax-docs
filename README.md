@@ -28,8 +28,7 @@ Apache License, Version 2.0.
 - Issues: https://ortussolutions.atlassian.net/projects/RELAX/issues
 - Documentation: http://coldbox-relax.ortusbooks.com
 
-
-# Professional Open Source
+## Professional Open Source
 
 ![Ortus Solutions, Corp](images/ortussolutions_button.png)
 
