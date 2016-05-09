@@ -8,4 +8,5 @@
    * [Global Headers](relax_dsl/global_headers.md)
    * [Global Params](relax_dsl/global_params.md)
    * [Resources](relax_dsl/resources.md)
+   * Schemas & Samples
 
