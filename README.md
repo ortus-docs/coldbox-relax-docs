@@ -20,10 +20,6 @@ And constructed with the following guidelines:
 * New additions without breaking backward compatibility bumps the minor (and resets the patch)
 * Bug fixes and misc changes bumps the patch
 
-
-# License
-The ColdBox Platform, WireBox is open source
-
 ## License
 Apache License, Version 2.0.
 
