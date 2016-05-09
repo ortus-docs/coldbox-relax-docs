@@ -1,6 +1,7 @@
 # Summary
 
 * [Introduction](README.md)
+   * Changelog
 * [Capabilities](capabilities.md)
 * [Getting Started](getting_started.md)
 * [Relax Configuration DSL](relax_dsl/index.md)
