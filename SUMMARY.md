@@ -2,7 +2,7 @@
 
 * [Introduction](README.md)
    * [Changelog](introduction/changelog.md)
-* Installation
+* [Installation](installation.md)
 * [Capabilities](capabilities.md)
 * [Getting Started](getting_started.md)
 * [Relax Configuration DSL](relax_dsl/index.md)
