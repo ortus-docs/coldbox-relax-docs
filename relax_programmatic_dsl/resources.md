@@ -51,15 +51,7 @@ Define a default HTTP method for a resource
 | --- | --- | --- | --- | --- |
 | method | any | Yes | --- | The HTTP method that will be the default |
 
-# Set All Params
 
-Set all the required parameters of a resource
-
-###Arguments
-
-| Argument | Type | Required | Default | Description |
-| --- | --- | --- | --- | --- |
-| params | array | Yes | --- | Set the parameters of a resource |
 
 
 
