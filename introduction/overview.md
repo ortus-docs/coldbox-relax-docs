@@ -1,3 +1,7 @@
+# Overview
+
+Here is a quick synopsis of how ColdBox Relax works.
+
 # Capabilities
 
 So what can you do with Relax?
