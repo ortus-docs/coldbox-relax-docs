@@ -15,3 +15,17 @@ So what can you do with Relax?
 * LogBox integration so you can use the RelaxLogs viewer to monitor and see your log db entries
 * Programmatic DSL for configuration of your RESTful services
 
+## Videos
+
+### Relax Intro
+
+[![](https://github.com/ColdBox/coldbox-relax/wiki/relaxIntro.png)](https://vimeo.com/19735777)
+
+### Version 1.5 Features
+
+[![](https://github.com/ColdBox/coldbox-relax/wiki/version1.5Features.png)](https://vimeo.com/30876824)
+
+### Version 1.4 Features
+
+[![](https://github.com/ColdBox/coldbox-relax/wiki/version1.4Features.png)](https://vimeo.com/21322382)
+
