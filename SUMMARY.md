@@ -14,7 +14,7 @@
    * [Global Headers](relax_programmatic_dsl/global_headers.md)
    * [Global Params](relax_programmatic_dsl/global_params.md)
    * [Resources](relax_programmatic_dsl/resources.md)
-       * Parameters
+       * [Parameters](relax_programmatic_dsl/resources/parameters.md)
        * Placeholders
        * Headers
    * [Schemas & Samples](relax_programmatic_dsl/schemas_&_samples.md)
