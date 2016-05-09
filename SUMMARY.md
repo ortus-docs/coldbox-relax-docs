@@ -16,6 +16,6 @@
    * [Resources](relax_programmatic_dsl/resources.md)
        * [Parameters](relax_programmatic_dsl/resources/parameters.md)
        * [Placeholders](relax_programmatic_dsl/resources/placeholders.md)
-       * Headers
+       * [Headers](relax_programmatic_dsl/resources/headers.md)
    * [Schemas & Samples](relax_programmatic_dsl/schemas_&_samples.md)
 
