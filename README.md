@@ -1,29 +1,28 @@
 # WELCOME TO COLDBOX RELAX
 
->RELAX = RESTFul Tools For Lazy Experts!
+> RELAX = RESTFul Tools For Lazy Experts!
 
 What is Relax? ColdBox Relax is a set of RESTFul tools for lazy experts. We pride ourselves in helping you (the developer) work smarter and 
 ColdBox Relax is a tool to help you document your projects faster. ColdBox Relax provides you with the necessary tools to 
 automagically model, document and test your RESTFul services. One can think of ColdBox Relax as a way to describe RESTFul web services, 
 test RESTFul web services, monitor RESTFul web services and document RESTFul web services–all while you relax!
 
-##LICENSE
+## License
 Apache License, Version 2.0.
 
-##IMPORTANT LINKS
+## Important Links
 - Code: http://github.com/coldbox/coldbox-relax
-- Issues: https://github.com/ColdBox/coldbox-relax/issues
-- Documentation: https://github.com/ColdBox/coldbox-relax/wiki
+- Issues: https://ortussolutions.atlassian.net/projects/RELAX/issues
+- Documentation: http://coldbox-relax.ortusbooks.com
 
-##SYSTEM REQUIREMENTS
+## System Requirements
 - Lucee 4.5+
 - Railo 4+
 - ColdFusion 9+
 
-INSTRUCTIONS
-============
+## Quick Instructions
 
-Just drop into your **modules** folder or use the box-cli to install
+Just drop into your **modules** folder or use CommandBox to install
 
 `box install relax`
 
