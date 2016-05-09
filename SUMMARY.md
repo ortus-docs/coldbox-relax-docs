@@ -7,4 +7,5 @@
    * [Configuration](relax_dsl/configuration.md)
    * [Global Headers](relax_dsl/global_headers.md)
    * [Global Params](relax_dsl/global_params.md)
+   * Resources
 
