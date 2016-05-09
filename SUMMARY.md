@@ -16,5 +16,6 @@
    * [Resources](relax_programmatic_dsl/resources.md)
        * Parameters
        * Placeholders
+       * Headers
    * [Schemas & Samples](relax_programmatic_dsl/schemas_&_samples.md)
 
