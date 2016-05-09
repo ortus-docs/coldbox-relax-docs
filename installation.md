@@ -4,6 +4,11 @@ Just drop into your **modules** folder or use CommandBox to install
 
 `box install relax`
 
+## System Requirements
+- Lucee 4.5+
+- Railo 4+
+- ColdFusion 9+
+
 ## Settings
 You will need to update the your `ColdBox.cfc` with a `relax` structure with your preferred settings for Relax.  
  
