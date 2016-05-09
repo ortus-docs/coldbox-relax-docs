@@ -28,10 +28,6 @@ Apache License, Version 2.0.
 - Issues: https://ortussolutions.atlassian.net/projects/RELAX/issues
 - Documentation: http://coldbox-relax.ortusbooks.com
 
-## System Requirements
-- Lucee 4.5+
-- Railo 4+
-- ColdFusion 9+
 
 # Professional Open Source
 
