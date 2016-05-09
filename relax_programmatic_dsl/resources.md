@@ -84,5 +84,14 @@ Set all the required placeholders of a resource
 | placeholders | array | Yes | --- | Set the placeholders of a resource |
 
 
+## Set All Headers
+
+Set all the required headers of a resource
+
+###Arguments
+
+| Argument | Type | Required | Default | Description |
+| --- | --- | --- | --- | --- |
+| headers | any | Yes | --- | Set the headers of a resource |
 
 
