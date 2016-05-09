@@ -10,7 +10,17 @@ Add a new resource to the API definition, you can then concatenate more methods 
 | handler | any | No | --- | The description of the parameter |
 | action | any | No | --- | Is the parameter required or not |
 
-# Default Method
+## Methods
+
+Add methods to a resource
+
+###Arguments
+
+| Argument | Type | Required | Default | Description |
+| --- | --- | --- | --- | --- |
+| methods | any | Yes | --- | The methods list to allow |
+
+## Default Method
 
 Define a default HTTP method for a resource
 
@@ -33,7 +43,7 @@ Set all the required parameters of a resource
 # Placeholders
 Add a placeholder to a resource
 
-##Arguments
+## Arguments
 
 | Argument | Type | Required | Default | Description |
 | --- | --- | --- | --- | --- |
