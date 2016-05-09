@@ -5,5 +5,5 @@
 * [Getting Started](getting_started.md)
 * [Relax DSL](relax_dsl/index.md)
    * [Configuration](relax_dsl/configuration.md)
-   * Global Headers
+   * [Global Headers](relax_dsl/global_headers.md)
 
