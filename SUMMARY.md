@@ -10,4 +10,5 @@
    * [Resources](relax_dsl/resources.md)
    * [Schemas & Samples](relax_dsl/schemas_&_samples.md)
 * [Relax Programmatic DSL](relax_programmatic_dsl/index.md)
+   * Configuration
 
