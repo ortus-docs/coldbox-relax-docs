@@ -10,17 +10,17 @@ Add a new resource to the API definition, you can then concatenate more methods 
 | handler | any | No | --- | The description of the parameter |
 | action | any | No | --- | Is the parameter required or not |
 
-## Default Method
+# Default Method
 
 Define a default HTTP method for a resource
 
-### Arguments
+## Arguments
 
 | Argument | Type | Required | Default | Description |
 | --- | --- | --- | --- | --- |
 | method | any | Yes | --- | The HTTP method that will be the default |
 
-## Set All Params
+# Set All Params
 
 Set all the required parameters of a resource
 
@@ -30,10 +30,10 @@ Set all the required parameters of a resource
 | --- | --- | --- | --- | --- |
 | params | array | Yes | --- | Set the parameters of a resource |
 
-## Placeholders
+# Placeholders
 Add a placeholder to a resource
 
-###Arguments
+##Arguments
 
 | Argument | Type | Required | Default | Description |
 | --- | --- | --- | --- | --- |
@@ -43,10 +43,10 @@ Add a placeholder to a resource
 | default | any | No |  | The default value of the placeholder |
 | type | any | No | string | The type of the placeholder |
 
-### Set All Placeholders
+## Set All Placeholders
 Set all the required placeholders of a resource
 
-###Arguments
+### Arguments
 
 | Argument | Type | Required | Default | Description |
 | --- | --- | --- | --- | --- |
