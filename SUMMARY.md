@@ -9,5 +9,5 @@
    * [Global Params](relax_dsl/global_params.md)
    * [Resources](relax_dsl/resources.md)
    * [Schemas & Samples](relax_dsl/schemas_&_samples.md)
-* Relax Programmatic DSL
+* [Relax Programmatic DSL](relax_programmatic_dsl/index.md)
 
