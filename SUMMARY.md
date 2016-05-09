@@ -1,7 +1,7 @@
 # Summary
 
 * [Introduction](README.md)
-   * [Overview](introduction/capabilities.md)
+   * [Overview](introduction/overview.md)
    * [Changelog](introduction/changelog.md)
 * [Installation](installation.md)
 * [Getting Started](getting_started.md)
