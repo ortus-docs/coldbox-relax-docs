@@ -13,4 +13,5 @@
    * [Configuration](relax_programmatic_dsl/configuration.md)
    * Global Headers
    * Global Params
+   * Resources
 
