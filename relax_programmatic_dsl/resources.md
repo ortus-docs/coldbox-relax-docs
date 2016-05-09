@@ -10,6 +10,17 @@ Add a new resource to the API definition, you can then concatenate more methods 
 | handler | any | No | --- | The description of the parameter |
 | action | any | No | --- | Is the parameter required or not |
 
+
+## Default Format
+
+Define a default return format for a resource
+
+###Arguments
+
+| Argument | Type | Required | Default | Description |
+| --- | --- | --- | --- | --- |
+| format | any | Yes | --- | The format that will be the default |
+
 ## Description
 
 Add a description to a resource
