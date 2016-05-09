@@ -1,4 +1,4 @@
-# Relax DSL
+# Relax Configuration DSL
 
 Once you have configured the Relax module setup and ready for operation you can start by defining your RESTful service. You will do this by creating a Simple CFC–usually in the root of the resource folder, for simplicity–named Relax.cfc or Relax.json. In this component or JSON file, you will create several public variables (using the this scope) that will define your service's parameters, headers, resources and so much more. You can also use our programmatic DSL, which is much cleaner than implicit data structures. This CFC will represent your RESTful service and ColdBox Relax will generate documentation from it, create testable URLs for you and it is a great way for you to model your service. Please note that if you use JSON for defining your service, it must validate according to the same structure elements you will see here. http://www.jsonlint.com is a great way for you to format and validate your JSON representations.
 
