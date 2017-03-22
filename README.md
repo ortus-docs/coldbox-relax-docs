@@ -4,9 +4,9 @@
 
 > RELAX = RESTFul Tools For Lazy Experts!
 
-What is Relax? ColdBox Relax is a set of RESTFul tools for lazy experts. We pride ourselves in helping you \(the developer\) work smarter and   
-ColdBox Relax is a tool to help you document your projects faster. ColdBox Relax provides you with the necessary tools to   
-automagically model, document and test your RESTFul services. One can think of ColdBox Relax as a way to describe RESTFul web services,   
+What is Relax? ColdBox Relax is a set of RESTFul tools for lazy experts. We pride ourselves in helping you \(the developer\) work smarter and  
+ColdBox Relax is a tool to help you document your projects faster. ColdBox Relax provides you with the necessary tools to  
+automagically model, document and test your RESTFul services. One can think of ColdBox Relax as a way to describe RESTFul web services,  
 test RESTFul web services, monitor RESTFul web services and document RESTFul web services–all while you relax!
 
 ## Versioning
@@ -29,7 +29,7 @@ Apache License, Version 2.0.
 
 ## Important Links
 
-* Code: [http://github.com/coldbox/coldbox-relax](http://github.com/coldbox/coldbox-relax)
+* Code: [https://github.com/coldbox-modules/coldbox-relax](https://github.com/coldbox-modules/coldbox-relax)
 * Issues: [https://ortussolutions.atlassian.net/projects/RELAX/issues](https://ortussolutions.atlassian.net/projects/RELAX/issues)
 * Documentation: [http://coldbox-relax.ortusbooks.com](http://coldbox-relax.ortusbooks.com)
 
