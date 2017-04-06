@@ -9,7 +9,8 @@
         "edit-link",
         "github",
         "advanced-emoji",
-        "sitemap"
+        "sitemap",
+        "anchors"
     ],
     "pluginsConfig": {
         "edit-link": {
