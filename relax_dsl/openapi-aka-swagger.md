@@ -4,6 +4,13 @@ As of Relax v2.3 and above, the [OpenAPI v2.0](https://github.com/OAI/OpenAPI-Sp
 
 The OpenAPI specification offers a convenient and portable way to describe your API, its requirements, parameters, and data conventions.   You may also choose to use this to describe your API in the form of [HTTP OPTIONS responses](https://www.w3.org/Protocols/rfc2616/rfc2616-sec9.html) to fulfill [CORS requirements](https://www.w3.org/TR/cors/) or to allow rich [hypermedia](https://en.wikipedia.org/wiki/HATEOAS) documentation for your consumers.
 
+By convention, Relax looks for supported formats in the following order (note that the top-level file shares the name of the parent directory):
+
+1. `myResourceDirectory/myapi/myapi.json`  - JSON OpenAPI schema
+2. `myResourceDirectory/myapi/myapi.yaml` - YAML OpenAPI schema
+3. `myResourceDirectory/myapi/Relax.cfc` - Relax programmatic DSL (deprecated)
+
+
 Example \( a segment of the [Forgebox API](https://www.forgebox.io/) \):
 
 ```
