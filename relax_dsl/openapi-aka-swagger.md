@@ -4,11 +4,7 @@ As of Relax v2.3 and above, the [OpenAPI v2.0](https://github.com/OAI/OpenAPI-Sp
 
 The OpenAPI specification offers a convenient and portable way to describe your API, its requirements, parameters, and data conventions.   You may also choose to use this to describe your API in the form of [HTTP OPTIONS responses](https://www.w3.org/Protocols/rfc2616/rfc2616-sec9.html) to fulfill [CORS requirements](https://www.w3.org/TR/cors/) or to allow rich [hypermedia](https://en.wikipedia.org/wiki/HATEOAS) documentation for your consumers.
 
-
-
 Example \( a segment of the [Forgebox API](https://www.forgebox.io/) \):
-
-
 
 ```
 {
@@ -77,10 +73,7 @@ Example \( a segment of the [Forgebox API](https://www.forgebox.io/) \):
 }
 ```
 
-
-
-Note the use of the `x-` attributes, which allow for extensions of the Swagger specification,  In addition, more complex API's can use the `$ref` syntax to denote locations and keys of relative JSON files:  
-
+Note the use of the `x-` attributes, which allow for extensions of the Swagger specification,  In addition, more complex API's can use the `$ref` syntax to denote locations and keys of relative JSON files:
 
 ```
 "paths": {
@@ -89,4 +82,14 @@ Note the use of the `x-` attributes, which allow for extensions of the Swagger s
 ```
 
 This notates that the definition for the path `/echo` is found in `paths.json` under the `echo` key.  Using the `$ref` notation allows you to store schema examples and other code samples separate from the main JSON or YAML description of your site.
+
+### YAML Support
+
+Per the Swagger formats description:
+
+> The files describing the RESTful API in accordance with the Swagger specification are represented as JSON objects and conform to the JSON standards. YAML, being a superset of JSON, can be used as well to represent a Swagger specification file.
+
+Relax includes support for YAML-format API descriptions, as well.
+
+For full descriptions and examples of the schema specification [read the official OpenAPI v2 specification](https://github.com/OAI/OpenAPI-Specification/blob/master/versions/2.0.md).
 
