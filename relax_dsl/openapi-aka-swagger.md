@@ -1,6 +1,6 @@
-## Open API/Swagger
+## Open API/Swagger Specification
 
-As of Relax v2.3 and above, the [OpenAPI v2.0](https://github.com/OAI/OpenAPI-Specification/blob/master/versions/2.0.md) is the default recommended format for documentation in Relax.  The previous RelaxDSL has been deprecated and is schedule to sunset at Relax v4.0.
+As of Relax v2.3 and above, the [OpenAPI v2.0](https://github.com/OAI/OpenAPI-Specification/blob/master/versions/2.0.md) is the default format for documentation in Relax.  The previous RelaxDSL has been deprecated and is schedule to sunset at Relax v4.0.
 
 The OpenAPI specification offers a convenient and portable way to describe your API, its requirements, parameters, and data conventions.   You may also choose to use this to describe your API in the form of [HTTP OPTIONS responses](https://www.w3.org/Protocols/rfc2616/rfc2616-sec9.html) to fulfill [CORS requirements](https://www.w3.org/TR/cors/) or to allow rich [hypermedia](https://en.wikipedia.org/wiki/HATEOAS) documentation for your consumers.
 

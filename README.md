@@ -1,13 +1,19 @@
 # ![](/images/relaxLogo150.png)
 
-# Welcome to ColdBox Relax v2.3.0
+# ColdBox Relax v3.0
 
 > RELAX = RESTFul Tools For Lazy Experts!
 
-What is Relax? ColdBox Relax is a set of RESTFul tools for lazy experts. We pride ourselves in helping you \(the developer\) work smarter and  
-ColdBox Relax is a tool to help you document your projects faster. ColdBox Relax provides you with the necessary tools to  
-automagically model, document and test your RESTFul services. One can think of ColdBox Relax as a way to describe RESTFul web services,  
-test RESTFul web services, monitor RESTFul web services and document RESTFul web services–all while you relax!
+What is Relax? ColdBox Relax is a set of RESTFul tools for lazy experts. We pride ourselves in helping you \(the developer\) work smarter, saving yourself time to write great applications!  
+
+
+Relax is a tool to help you document and describe your API services to both end-users, as well as providing an interface for testing endpoint responses.   
+  
+Providing you with the necessary tools to "automagically" model, document and test your RESTFul services, think of ColdBox Relax as a key tool in your RESTFul web services toolkit.
+
+## License
+
+Apache License, Version 2.0.
 
 ## Versioning
 
@@ -23,13 +29,9 @@ And constructed with the following guidelines:
 * New additions without breaking backward compatibility bumps the minor \(and resets the patch\)
 * Bug fixes and misc changes bumps the patch
 
-## License
-
-Apache License, Version 2.0.
-
 ## Important Links
 
-* Code: [https://github.com/coldbox-modules/coldbox-relax](https://github.com/coldbox-modules/coldbox-relax)
+* Source Code: [https://github.com/coldbox-modules/coldbox-relax](https://github.com/coldbox-modules/coldbox-relax)
 * Issues: [https://ortussolutions.atlassian.net/projects/RELAX/issues](https://ortussolutions.atlassian.net/projects/RELAX/issues)
 * Documentation: [http://coldbox-relax.ortusbooks.com](http://coldbox-relax.ortusbooks.com)
 
