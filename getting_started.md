@@ -1,35 +1,40 @@
 # Getting Started
 
-To start using Relax you should start by configuring the Relax module for operation, then create our Relax DSL for our ReSTful web services. Finally, we can move into the RelaxLogs setup so we can monitor the logs produced by our RESTful service.
+Relax comes with three example API's which are configured by default:
+
+* Swagger Petstore - The swagger Petstore API example, which is described using the OpenAPI/Swagger specification
+* Forgebox API - Version 2 of the Forgebox API, which is described through the, now-deprecated, RelaxDSL specification. 
+* MyAPI - Another example, using the RelaxDSL specification.  
+
+Both `Forgebox` and `MyAPI` may be exported from within the interface in to a normalized Swagger JSON schema, while the `Petstore` example provides and complete example of using a nested file structure to contain different parts of your API documentation.
 
 ## Configuration
-Let's open the module's configuration file `ModuleConfig.cfc` and see what we can modify in it. Look for the settings structure, this is the configuration structure for the Relax module and you have some control over it. Below is the default configuration structure:
+
+For custom configuration of your API documentation, you simply add a `relax` configuration to your `Coldbox.cfc` configuration file:
+
+Below is the default configuration structure:
 
 ```javascript
 // Relax Configuration Settings
 relax = {
     // The location of the relaxed APIs, defaults to models.resources
-    APILocation = "models.resources",
+    APILocation = "models/resources",
     // Default API to load, name of the directory inside of resources
-    defaultAPI = "myapi",
-    // History stack size, the number of history items to track in the RelaxURL
-    maxHistory = 10
+    defaultAPI = "forgebox"
 };
 ```
 
+Note that the `APILocation` key denotes the path to your API resources.  You will need to have at lease one API described, in one of the supported specifications, in order to load a default API. You may import new API documentation from the interface, and create additional API's as you continue to develop new services and endpoints. 
 
-## Relax Logs
-RelaxLogs structure settings:
+## Considerations
 
-| Setting | Type | Required | Default | Description |
-| --- | --- | --- | --- | --- |
-| datasource  | srting | true | --- | The datasource registered in the ColdFusion administrator to use for connectivity |
-| table | string | true | --- | The database table where all the log entries are located in. |
-| adapter | string | true | --- | The adapter to use for talking to the correct database implementation. The available adapters are:<ul><li>mysql</li><li>mssql</li><li>postgres</li><li>oracle</li></ul> |
-| maxrows  | numeric | true | 50 | The maximum number of rows to retrieve in the RelaxLogs as paging is provided. |
-| bandGap | numeric | true | 3 | The number of pages to display left and right of the paging carrousel when paging is provided. |
+As you develop your API endpoints, you'll find that the size of your API documentation quickly grows with sample requests, responses, and general documentation on parameters and security constraints.   For this reason, it is recommended that you take an "Active Entity" approach to separation of your API documentation.  For example, group together a collections of endpoints and paths which related to specific segments of your API.  Expanding the "Petstore" example, you might have API's for:
 
+* `/pets`
+* `/stores`
+* `/products`
+* `/orders`
 
-> **INFO** To use the RelaxLogs you will need to make some configuration adjustments. Essentially, you need to configure RelaxLogs to work with a database table with columns specified by the LogBox [Database Appender](http://wiki.coldbox.org/wiki/LogBox.cfm#DBAppender). 
+By segmenting your documentation in to functional groups, you make updates and addition of endpoints easier, in the long run.
 
 
