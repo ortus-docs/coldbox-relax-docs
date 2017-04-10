@@ -13,5 +13,18 @@ So what can you do with Relax?
 * Keep a history of your latest Relaxed test requests so you can rebuild your request and test again
 * Programmatic DSL for configuration of your RESTful services \(Deprecated as of v2.3\)
 
+## SYSTEM REQUIREMENTS
 
+* Lucee 4.5+
+* ColdFusion 10+
+
+## INSTRUCTIONS
+
+Use the box-cli to install
+
+`box install relax`
+
+Or, to install the bleeding-edge version
+
+`box install relax@be`
 
