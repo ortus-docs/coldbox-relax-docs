@@ -55,7 +55,7 @@ public function options( event, rc, prc ){
     
     } else {
 	
-	prc.response.setData( petOptions.paths[ "/pets" ] );
+        prc.response.setData( petOptions.paths[ "/pets" ] );
     
     }
     
