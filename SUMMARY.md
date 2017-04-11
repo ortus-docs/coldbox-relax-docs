@@ -14,4 +14,5 @@
       * [Headers](relax_programmatic_dsl/resources/headers.md)
     * [Schemas & Samples](relax_programmatic_dsl/schemas_&_samples.md)
   * [Import and Export Formats](relax_dsl/importexport-options.md)
+* [cbSwagger Companion Module](cbswagger-companion-module.md)
 
