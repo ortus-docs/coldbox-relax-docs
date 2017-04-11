@@ -18,4 +18,7 @@ public function petOptions( event, rc, prc ){
 }
 ```
 
-This will serve the 
+This will serve the `paths` node of the `petstore` API as a JSON response to an options request:
+
+
+
