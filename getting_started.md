@@ -18,7 +18,7 @@ Below is the default configuration structure:
 // Relax Configuration Settings
 relax = {
     // The location of the relaxed APIs, defaults to models.resources
-    APILocation = "models/resources",
+    APILocation = "models.resources",
     // Default API to load, name of the directory inside of resources
     defaultAPI = "forgebox",
     // Whether to cache the API Service as a singleton - In development/authoring, you'll want this set to false
