@@ -18,7 +18,7 @@ Or, to install the bleeding-edge version
 
 You will need to update the your `ColdBox.cfc` with a `relax` structure with your preferred settings for Relax.
 
-```
+```javascript
 // Relax Configuration Settings
 relax = {
     // The location of the relaxed APIs, defaults to models.resources
@@ -41,7 +41,7 @@ For reference, the the contents of that export, at the present, would be:
 
 
 
-```
+```javascript
 {
     "swagger": "2.0",
     "info": {
