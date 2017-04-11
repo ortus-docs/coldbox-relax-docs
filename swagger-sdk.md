@@ -1,12 +1,12 @@
 ## Swagger SDK - Leverage Hypermedia Discovery in your RESTful Services
 
-The ColdBox SwaggerSDK is a dependency of the Relax module and is available to allow you to provided consumers of your API with information on paths, methods, expectations and available parameters.
+The [ColdBox SwaggerSDK](https://github.com/coldbox-modules/swagger-sdk) is a dependency of the Relax module and is available to allow you to provided consumers of your API with information on paths, methods, expectations and available parameters.
 
 Hypermedia design patterns, usually provided within the content of `OPTIONS` requests to your endpoint, allow you to provide autodiscovery and consumption assistance on-the-fly.
 
 For convenience, built-in methods are available within Relax to simplify the loading and parsing of your existing API documentation.
 
-An example, leveraging an `OPTIONS` request for an endpoint (and using the Base REST handler), might look like:
+An example, leveraging an `OPTIONS` request for an endpoint (and using the conventions of the [Coldbox REST API skeleton](https://github.com/coldbox-templates/rest)), might look like:
 
 
 Routing config:
@@ -42,17 +42,23 @@ addRoute(
 ```
 
 
-Now we add an `options` method to our handler to serve the documentation
+Now we add an `options` method to our "Pets" handler to serve the documentation
 
 ```
 public function options( event, rc, prc ){
     
     petOptions = getInstance( "APIService@relax" ).loadAPI( 'petstore' );
+    
     if( structKeyExists( rc, "id" )){
+    
     	prc.response.setData( petOptions.paths[ "/pets/{id}" ] );
+    
     } else {
+	
 	prc.response.setData( petOptions.paths[ "/pets" ] );
+    
     }
+    
     prc.response.setStatusCode( STATUS.SUCCESS );
 
 }
