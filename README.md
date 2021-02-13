@@ -38,7 +38,9 @@ And constructed with the following guidelines:
 
 ## Discussion & Help
 
-The Box products help and discussion group can be found here: [https://community.ortussolutions.com/c/box-modules/elasticsearch/34](https://community.ortussolutions.com/c/box-modules/elasticsearch/34)
+The Box products help and discussion group can be found here: 
+
+[https://community.ortussolutions.com/c/box-modules/relax/32](https://community.ortussolutions.com/c/box-modules/relax/32)
 
 ### Professional Open Source
 
