@@ -1,21 +1,26 @@
-# Schemas
+# Schemas & Samples
+
+## Schemas
+
 Append a schema to a resource
 
-## Arguments
+### Arguments
 
 | Argument | Type | Required | Default | Description |
-| --- | --- | --- | --- | --- |
+| :--- | :--- | :--- | :--- | :--- |
 | format | any | Yes | --- | The format of the schema |
 | description | any | No |  | The description of the schema |
 | body | any | No |  | The body contents of the schema |
 
-# Samples
+## Samples
+
 Append a sample to a resource
 
-## Arguments
+### Arguments
 
 | Argument | Type | Required | Default | Description |
-| --- | --- | --- | --- | --- |
+| :--- | :--- | :--- | :--- | :--- |
 | format | any | Yes | --- | The format of the sample |
 | description | any | No |  | The description of the sample |
 | body | any | No |  | The body contents of the sample |
+

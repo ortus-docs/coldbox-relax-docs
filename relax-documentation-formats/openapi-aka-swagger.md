@@ -1,19 +1,18 @@
-## Open API/Swagger Specification
+# OpenAPI \(AKA Swagger\)
 
-As of Relax v2.3 and above, the [OpenAPI v2.0](https://github.com/OAI/OpenAPI-Specification/blob/master/versions/2.0.md) is the default format for documentation in Relax.  The previous RelaxDSL has been deprecated and is schedule to sunset at Relax v4.0.
+As of Relax v2.3 and above, the [OpenAPI v2.0](https://github.com/OAI/OpenAPI-Specification/blob/master/versions/2.0.md) is the default format for documentation in Relax. The previous RelaxDSL has been deprecated and is schedule to sunset at Relax v4.0.
 
-The OpenAPI specification offers a convenient and portable way to describe your API, its requirements, parameters, and data conventions.   You may also choose to use this to describe your API in the form of [HTTP OPTIONS responses](https://www.w3.org/Protocols/rfc2616/rfc2616-sec9.html) to fulfill [CORS requirements](https://www.w3.org/TR/cors/) or to allow rich [hypermedia](https://en.wikipedia.org/wiki/HATEOAS) documentation for your consumers.
+The OpenAPI specification offers a convenient and portable way to describe your API, its requirements, parameters, and data conventions. You may also choose to use this to describe your API in the form of [HTTP OPTIONS responses](https://www.w3.org/Protocols/rfc2616/rfc2616-sec9.html) to fulfill [CORS requirements](https://www.w3.org/TR/cors/) or to allow rich [hypermedia](https://en.wikipedia.org/wiki/HATEOAS) documentation for your consumers.
 
-By convention, Relax looks for supported formats in the following order (note that the top-level file shares the name of the parent directory):
+By convention, Relax looks for supported formats in the following order \(note that the top-level file shares the name of the parent directory\):
 
 1. `myResourceDirectory/myapi/myapi.json`  - JSON OpenAPI schema
 2. `myResourceDirectory/myapi/myapi.yaml` - YAML OpenAPI schema
-3. `myResourceDirectory/myapi/Relax.cfc` - Relax programmatic DSL (deprecated)
-
+3. `myResourceDirectory/myapi/Relax.cfc` - Relax programmatic DSL \(deprecated\)
 
 Example \( a segment of the [Forgebox API](https://www.forgebox.io/) \):
 
-```
+```text
 {
     "swagger": "2.0",
     "info": {
@@ -80,17 +79,17 @@ Example \( a segment of the [Forgebox API](https://www.forgebox.io/) \):
 }
 ```
 
-Note the use of the `x-` attributes, which allow for extensions of the Swagger specification,  In addition, more complex API's can use the `$ref` syntax to denote locations and keys of relative JSON files:
+Note the use of the `x-` attributes, which allow for extensions of the Swagger specification, In addition, more complex API's can use the `$ref` syntax to denote locations and keys of relative JSON files:
 
-```
+```text
 "paths": {
         "/echo": {"$ref": "paths.json#echo"}
 },
 ```
 
-This notates that the definition for the path `/echo` is found in `paths.json` under the `echo` key.  Using the `$ref` notation allows you to store schema examples and other code samples separate from the main JSON or YAML description of your site.
+This notates that the definition for the path `/echo` is found in `paths.json` under the `echo` key. Using the `$ref` notation allows you to store schema examples and other code samples separate from the main JSON or YAML description of your site.
 
-### YAML Support
+## YAML Support
 
 Per the Swagger formats description:
 

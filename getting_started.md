@@ -26,11 +26,11 @@ relax = {
 };
 ```
 
-Note that the `APILocation` key denotes the path to your API resources.  You will need to have at lease one API described, in one of the supported specifications, in order to load a default API. You may import new API documentation from the interface, and create additional API's as you continue to develop new services and endpoints. 
+Note that the `APILocation` key denotes the path to your API resources. You will need to have at lease one API described, in one of the supported specifications, in order to load a default API. You may import new API documentation from the interface, and create additional API's as you continue to develop new services and endpoints.
 
 ## Considerations
 
-As you develop your API endpoints, you'll find that the size of your API documentation quickly grows with sample requests, responses, and general documentation on parameters and security constraints.   For this reason, it is recommended that you take an "Active Entity" approach to separation of your API documentation.  For example, group together a collections of endpoints and paths which related to specific segments of your API.  Expanding the "Petstore" example, you might have API's for:
+As you develop your API endpoints, you'll find that the size of your API documentation quickly grows with sample requests, responses, and general documentation on parameters and security constraints. For this reason, it is recommended that you take an "Active Entity" approach to separation of your API documentation. For example, group together a collections of endpoints and paths which related to specific segments of your API. Expanding the "Petstore" example, you might have API's for:
 
 * `/pets`
 * `/stores`
@@ -38,5 +38,4 @@ As you develop your API endpoints, you'll find that the size of your API documen
 * `/orders`
 
 By segmenting your documentation in to functional groups, you make updates and addition of endpoints easier, in the long run.
-
 

@@ -28,18 +28,15 @@ relax = {
     // Whether to cache the API Service as a singleton - In development/authoring, you'll want this set to false
     cache = false
 };
-
 ```
 
 ## Modeling
 
-You can look at the samples inside of the `relax` module under the `models/resources` directory.    
-  
-You may also open up the Relax ui and click the "Export" button on the sidebar to export an example JSON schema which may be customized and then imported back in to Relax.  
-  
+You can look at the samples inside of the `relax` module under the `models/resources` directory.
+
+You may also open up the Relax ui and click the "Export" button on the sidebar to export an example JSON schema which may be customized and then imported back in to Relax.
+
 For reference, the the contents of that export, at the present, would be:
-
-
 
 ```javascript
 {
@@ -580,8 +577,5 @@ For reference, the the contents of that export, at the present, would be:
         "PRODUCTION": "http://www.myapi.com"
     }
 }
-
 ```
-
-
 
