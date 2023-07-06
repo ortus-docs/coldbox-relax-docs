@@ -1,6 +1,6 @@
 # cbSwagger Companion Module
 
-The `cbSwagger` module for ColdBox allows you to quickly scaffold your documentation by performing an auto-discovery of your routes and the associated component metadata. To operate, the module requires that SES routing be enabled in your application. For more information [read the official documentation](https://coldbox.ortusbooks.com/content/Routing/routes_configuration.html).
+The `cbSwagger` module for ColdBox allows you to quickly scaffold your documentation by performing an auto-discovery of your routes and the associated component metadata. To operate, the module requires that SES routing be enabled in your application. For more information [read the official documentation](https://coldbox.ortusbooks.com/the-basics/routing/requirements/rewrite-rules).
 
 ## Installation \( via Commandbox \)
 
